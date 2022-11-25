@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="icon" href="../images/logo/icon.png">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/hover.css/css/hover-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../style/all.css">
+</head>
+
+<body class="bg-dark index-bg" style="margin-top: 53px; overflow: visible;">
+    <script>
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 2000,
+            wrap: false
+        })
+    </script>
+    <div class="op-bg">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-black py-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="../images/logo/logo.png" width="200px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex text-c ms-auto mb-2 mb-lg-0">
+                        <li class="order-5 order-lg-1">
+                            <form class="d-flex jcc ">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-white text-white" type="submit"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg></button>
+                            </form>
+                        </li>
+                        <li class="nav-item hvr-underline-from-center order-4 order-lg-2">
+                            <a class="nav-link  active" aria-current="page" href="#">分類</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-center order-3 order-lg-3">
+                            <a class="nav-link " href="./signup.html">註冊</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-center order-2 order-lg-4">
+                            <a class="nav-link " href="./login.html">登入</a>
+                        </li>
+                        <li class="nav-item hvr-underline-from-center order-1 order-lg-5">
+                            <a class="nav-link " href="./program.html">會員方案</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Carousel -->
+        <div id="myCarousel" class="myCarousel Carousel-main mb-4">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="card-swiper">
+                            <img src="../images/card/復仇者聯盟-終局之戰/card-bg.jpeg" class="d-block w-100" alt="...">
+                            <span class="card-swiper-img">
+                                <img src="../images/card/復仇者聯盟-終局之戰/card-title.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="card-swiper">
+                            <img src="../images/card/永恆族/card-bg.jpeg " class="d-block w-100" alt="...">
+                            <span class="card-swiper-img">
+                                <img src="../images/card/永恆族/card-title.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="card-swiper">
+                            <img src="../images/card/雷神索爾2/card-bg.jpeg" class="d-block w-100" alt="...">
+                            <span class="card-swiper-img">
+                                <img src="../images/card/雷神索爾2/card-title.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- card -->
+        <div class="wrap overflow pt-3 pb-6">
+            <!-- TOP10 -->
+            <div id="carouselExampleControls-6" class="carousel TOP10 overflow slide d-sm-block d-none mb-5"
+                data-bs-interval="false">
+                <h2 class="ps-3 mb-3 text-c">本週熱門</h2>
+                <div class="carousel-inner row mx-auto">
+                    <div class="carousel-item active">
+                        <div class="row jcc ">
+                            <div class="col-6 top-card px-1">
+                                <div class="top-card-bg">
+                                    <img src="../images/card/雷神索爾3/card-bg.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="top-card-title">
+                                    <a class="stretched-link" href="#"></a>
+                                    <img src="../images/card/雷神索爾3/card-title.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-6 top-card px-1">
+                                <div class="top-card-bg">
+                                    <img src="../images/card/雷神索爾-愛與雷霆/card-bg.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="top-card-title">
+                                    <a class="stretched-link" href="#"></a>
+                                    <img src="../images/card/雷神索爾-愛與雷霆/card-title.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row jcc">
+                            <div class="col-6 top-card px-1">
+                                <div class="top-card-bg">
+                                    <img src="../images/card/奇異博士/card-bg.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="top-card-title">
+                                    <a class="stretched-link" href="#"></a>
+                                    <img src="../images/card/奇異博士/card-title.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="col-6 top-card px-1">
+                                <div class="top-card-bg">
+                                    <img src="../images/card/驚奇隊長/card-bg.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="top-card-title w-75">
+                                    <a class="stretched-link" href="#"></a>
+                                    <img src="../images/card/驚奇隊長/card-title.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-6"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-6"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- 第一行 -->
+            <div class="card-container">
+                <div class="card-wrap ">
+                    <h4 class="px-0 px-md-5 text-center text-md-start">熱門排行</h4>
+                    <div id="myCarousel" class="Card-Carousel">
+                        <div id="carouselExampleControls-1" class="carousel carousel-card mx-auto slide"
+                            data-bs-interval="false">
+                            <div class="carousel-inner row mx-auto">
+                                <div class="carousel-item active">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/X戰警-黑鳳凰/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/X戰警-黑鳳凰/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">X戰警-黑鳳凰</h5>
+                                                                <p class="card-text ellipsis ">
+                                                                    在一次太空營救任務中，X戰警中最受喜愛一員的琴葛蕾遭遇一種宇宙力量攻擊，變成了最強大的變種人之一：黑鳳凰。
+                                                                    在與不斷增長的不穩定力量和她內心的惡魔作鬥爭的過程中，琴失去了控制，讓X戰警家族四分五裂，
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/奇異博士2/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/奇異博士2/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="./doctor.html"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">奇異博士2-失控多重宇宙</h6>
+                                                                <p class="card-text ellipsis">漫威工作室的《奇異博士2: 失控多重宇宙
+                                                                    》中，漫威多重宇宙解鎖了多重宇宙，並比以往任何時候都更深入。與奇異博士一起進入未知世界，他在新舊神秘盟友的幫助下，穿越多重宇宙令人費解且危險的交替現實，來對抗一個神秘的新對手。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/奇異博士/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/奇異博士/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">奇異博士</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業出品，講述了舉世聞名的神經外科醫生史蒂芬史傳奇的故事，一場可怕的車禍使他雙手受創，再也無法拿起手術刀，他的生活就此永遠改變。在傳統醫學對他的傷勢無能為力時，他不得不在一個叫作卡瑪泰姬的神秘之地尋求治癒和希望。他很快就發現到，這裡不僅僅是一個療癒之地也是一個戰鬥前線，對抗著執意摧毀現實的無形黑暗勢力。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/尚氣與十環傳奇/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/尚氣與十環傳奇/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">尚氣與十環傳奇</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    尚氣（劉思慕飾）得面對自己原已拋在腦後的過去，並跟他的父親，也就是危險的十環組織首領展開正面衝突。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟-無限之戰/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟-無限之戰/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">復仇者聯盟-無限之戰</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威電影宇宙的《復仇者聯盟：無限之戰》(Avengers:
+                                                                    Infinity
+                                                                    War)鑄劍十年，跨越整個漫威電影宇宙，將有史以來最致命的終極對決帶到了銀幕上。復仇者聯盟和他們的超級英雄盟友必須不惜一切代價來擊敗強大的薩諾斯，以免薩諾斯迅速地摧毀整個宇宙。某些連續閃光的片段或圖案可能會對光敏感的觀眾造成不適。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟-終局之戰/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟-終局之戰/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">復仇者聯盟-終局之戰</h6>
+                                                                <p class="card-text ellipsis">漫威的「無限」(Infinity)
+                                                                    系列史詩般的結局成為全球廣受好評的熱議話題，復仇者聯盟將與宇宙中最強大的反派薩諾斯展開激烈的對決。在毀滅性的事件抹殺了世界上一半的人口，並重挫他們的隊伍之後，剩下的英雄們掙扎著前進。但是他們必須攜手恢復宇宙的秩序與和諧，並把他們愛的人帶回來。由小勞勃道尼、克里斯伊凡、馬克盧法洛、克里斯漢斯沃、史嘉蕾喬韓森、傑瑞米雷納、唐奇鐸、保羅路德、班奈狄克康柏拜區、查德威克鮑斯曼
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">復仇者聯盟</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    S邪惡勢力悄悄集結，力量已龐大到極為驚人的地步，危機已非任何英雄能獨力面對。為了保護地球的安危，神盾局(S.H.I.E.L.D)局長尼克福瑞(山繆傑克森飾)費盡心力將各方超級英雄聚集一堂，包括鋼鐵人、綠巨人浩克、雷神索爾、鷹眼與黑寡婦，還有剛從冰獄裡甦醒的美國隊長。
+                                                                    於是，「復仇者聯盟」就此組成，然而各自擁有強大神力或武器的超級英雄，</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟2-奧創紀元/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟2-奧創紀元/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">復仇者聯盟2-奧創紀元</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    S在《復仇者聯盟2：奧創紀元》中，東尼史塔克為了卸下鋼鐵衣以及保護世界的重責，發明了｢奧創｣-一個有自我意識、學習能力的人工智能機器人，並將指揮機器人軍團的大權交給奧創。然而不斷進化的奧創得出了｢人類是地球上最大威脅｣的結論，進而開始實施清除人類的毀滅計畫，擁有強大能力的新角色緋紅女巫以及快銀也將加入戰局。復仇者聯盟必須再度集合，解決這個由他們親手造成的全球危機！
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls-1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls-1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- 第二排 -->
+            <div class="card-container">
+                <div class="card-wrap ">
+                    <h4 class="px-0 px-md-5 text-center text-md-start">精選系列</h4>
+                    <div id="myCarousel" class="Card-Carousel">
+                        <div id="carouselExampleControls-2" class="carousel carousel-card mx-auto slide"
+                            data-bs-interval="false">
+                            <div class="carousel-inner row mx-auto">
+                                <div class="carousel-item active">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/驚奇隊長/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/驚奇隊長/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">驚奇隊長</h6>
+                                                                <p class="card-text ellipsis ">
+                                                                    當一眾漫威(Marvel)超級英雄在保衛地球，一個神秘球體卻觸發更浩大的宇宙危機！自稱星爵的亡命之徒因偷去神秘球體，引來宇宙最強不擇手段的司令上將窮追不捨。為求甩身，星爵無奈倉促成軍，與神秘女殺手葛摩菈、復仇戰士德雷克斯、
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/永恆族/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/永恆族/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">永恆族</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業的《永恆族》描述一群來自遙遠星際的古老英雄。他們從人類誕生之初就曾保護地球。當久被遺忘的怪物「變異族」神秘回歸時，永恆族被迫重聚以再次保衛人類。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/猛毒/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/猛毒/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">猛毒</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    艾迪布洛克（湯姆哈迪飾）窮困潦倒，失去了一切。他成為了一個外星共生體的宿主，從此化身猛毒，擁有非凡的超能力。具備超能力的猛毒能否擊敗強大的邪惡勢力，與更強大、更有手段的共生體“暴動”一較高下？
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/獵鷹與酷寒戰士/card-new.png">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/獵鷹與酷寒戰士/card-new.png"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">獵鷹與酷寒戰士</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業出品的《獵鷹與酷寒戰士》由安東尼麥基飾演外號「獵鷹」的山姆威爾森、由賽巴斯汀史坦飾演「酷寒戰士」巴奇巴恩斯。他們在《復仇者聯盟4：終局之戰》結束時成為拍檔，如今攜手展開一場全球大冒險，考驗兩人的能力和耐性。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/美國隊長/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/美國隊長/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">美國隊長</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    在被認為不適合服兵役後，史蒂夫羅傑斯自願參加一項絕密研究項目，將他變成了美國隊長，一個致力於捍衛美國理想、領導自由之戰的超級英雄，成為了對抗邪惡的終極武器。當一股可怕的力量威脅到全球所有人時，全球最強戰士發動了對抗邪惡的九頭蛇組織的戰爭，該組織由惡貫滿盈的紅骷髏領導。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/美國隊長2-酷寒戰士/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/美國隊長2-酷寒戰士/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">美國隊長2-酷寒戰士</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    經歷了復仇者聯盟的紐約大戰後，美國隊長史蒂夫羅傑斯在華盛頓特區過著平靜的生活，試圖適應現代社會。然而當神盾局同事遭遇襲擊後，史蒂夫被迫捲入了一場威脅全球安全的陰謀之中。他與黑寡婦聯手出擊，一邊抵抗企圖將自己滅口的職業殺手，一邊揭露這一巨大的陰謀。當邪惡計劃曝光之後，美國隊長與黑寡婦得到了一位名叫獵鷹的新盟友的幫助。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/美國隊長3/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/美國隊長3/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">美國隊長3</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    在《美國隊長3：英雄內戰》中，美國隊長史蒂夫羅傑斯帶領著全新組建的復仇者聯盟，繼續維護世界和平。然而，一次執行任務時聯盟成員不慎造成大量平民傷亡，從而激發政治壓力，政府決定使用一套監管系統來管理和領導復仇者聯盟。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蜘蛛人-返校日/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蜘蛛人-返校日/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">蜘蛛人-返校日</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    年輕的彼得帕克／蜘蛛人嘗試駕馭新身份——一位利用蜘蛛網擺盪的超級英雄。在新導師東尼史塔克的監督下，彼得回到家裡，和梅嬸一起生活。彼得試圖回歸正常的生活。一個新反派禿鷹出現，威脅到彼得身邊的親人。-一個有自我意識、學習能力的人工智能機器人，並將指揮機器人軍團的大權交給奧創。然而不斷進化的奧創得出了｢人類是地球上最大威脅｣的結論，進而開始實施清除人類的毀滅計畫，擁有強大能力的新角色緋紅女巫以及快銀也將加入戰局。復仇者聯盟必須再度集合，解決這個由他們親手造成的全球危機！
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- 第三排 -->
+            <div class="card-container">
+                <div class="card-wrap ">
+                    <h4 class="px-0 px-md-5 text-center text-md-start">最新上架</h4>
+                    <div id="myCarousel" class="Card-Carousel">
+                        <div id="carouselExampleControls-3" class="carousel carousel-card mx-auto slide"
+                            data-bs-interval="false">
+                            <div class="carousel-inner row mx-auto">
+                                <div class="carousel-item active">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/鋼鐵人/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/鋼鐵人/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">鋼鐵人</h5>
+                                                                <p class="card-text ellipsis ">
+                                                                    億萬富翁發明家東尼史塔克就是鋼鐵人，這一點已眾人皆知，各方不斷施壓，要求他向軍方交出鋼鐵人戰服科技。擔心落入惡人之手，他拒絕透露機密。在小辣椒和羅迪的協助下，東尼必須結成新聯盟，對抗強大的新敵人，同時他也意識到，不僅有個瘋子要置他於死地，而就連本應挽救他生命的科技也正在慢慢毒害他。某些連續閃光的片段或圖案可能會對光敏感的觀眾造成不適。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/鋼鐵人2/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/鋼鐵人2/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">鋼鐵人2</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    億萬富翁發明家東尼史塔克就是鋼鐵人，這一點已眾人皆知，各方不斷施壓，要求他向軍方交出鋼鐵人戰服科技。擔心落入惡人之手，他拒絕透露機密。在小辣椒和羅迪的協助下，東尼必須結成新聯盟，對抗強大的新敵人，同時他也意識到，不僅有個瘋子要置他於死地，而就連本應挽救他生命的科技也正在慢慢毒害他。某些連續閃光的片段或圖案可能會對光敏感的觀眾造成不適。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蜘蛛人-驚奇再起/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蜘蛛人-驚奇再起/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">蜘蛛人-驚奇再起</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    《蜘蛛人：驚奇再起》講述了彼得帕克的故事。他是一個高中生，從小被父母拋棄，由班叔和梅嬸撫養長大。像大多數青少年一樣，彼得想努力弄清楚自己是誰，以及是什麼造就了現在的自己。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/雷神索爾-愛與雷霆/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/雷神索爾-愛與雷霆/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">雷神索爾-愛與雷霆</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威工作室的《雷神索爾：愛與雷霆》中，索爾與瓦爾基麗王、寇格和變身為強大女雷神的前女友珍佛斯特合作，對抗被稱為屠神者格爾的銀河殺手。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟-無限之戰/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟-無限之戰/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">復仇者聯盟-無限之戰</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威電影宇宙的《復仇者聯盟：無限之戰》(Avengers:
+                                                                    Infinity
+                                                                    War)鑄劍十年，跨越整個漫威電影宇宙，將有史以來最致命的終極對決帶到了銀幕上。復仇者聯盟和他們的超級英雄盟友必須不惜一切代價來擊敗強大的薩諾斯，以免薩諾斯迅速地摧毀整個宇宙。某些連續閃光的片段或圖案可能會對光敏感的觀眾造成不適。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟-終局之戰/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟-終局之戰/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">復仇者聯盟-終局之戰</h6>
+                                                                <p class="card-text ellipsis">漫威的「無限」(Infinity)
+                                                                    系列史詩般的結局成為全球廣受好評的熱議話題，復仇者聯盟將與宇宙中最強大的反派薩諾斯展開激烈的對決。在毀滅性的事件抹殺了世界上一半的人口，並重挫他們的隊伍之後，剩下的英雄們掙扎著前進。但是他們必須攜手恢復宇宙的秩序與和諧，並把他們愛的人帶回來。由小勞勃道尼、克里斯伊凡、馬克盧法洛、克里斯漢斯沃、史嘉蕾喬韓森、傑瑞米雷納、唐奇鐸、保羅路德、班奈狄克康柏拜區、查德威克鮑斯曼
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">復仇者聯盟</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    邪惡勢力悄悄集結，力量已龐大到極為驚人的地步，危機已非任何英雄能獨力面對。為了保護地球的安危，神盾局(S.H.I.E.L.D)局長尼克福瑞(山繆傑克森飾)費盡心力將各方超級英雄聚集一堂，包括鋼鐵人、綠巨人浩克、雷神索爾、鷹眼與黑寡婦，還有剛從冰獄裡甦醒的美國隊長。
+                                                                    於是，「復仇者聯盟」就此組成，然而各自擁有強大神力或武器的超級英雄，</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/復仇者聯盟2-奧創紀元/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/復仇者聯盟2-奧創紀元/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h5 class="card-title">復仇者聯盟2-奧創紀元</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    S在《復仇者聯盟2：奧創紀元》中，東尼史塔克為了卸下鋼鐵衣以及保護世界的重責，發明了｢奧創｣-一個有自我意識、學習能力的人工智能機器人，並將指揮機器人軍團的大權交給奧創。然而不斷進化的奧創得出了｢人類是地球上最大威脅｣的結論，進而開始實施清除人類的毀滅計畫，擁有強大能力的新角色緋紅女巫以及快銀也將加入戰局。復仇者聯盟必須再度集合，解決這個由他們親手造成的全球危機！
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls-3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls-3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- 第四行 -->
+            <div class="card-container">
+                <div class="card-wrap ">
+                    <h4 class="px-0 px-md-5 text-center text-md-start">漫威系列</h4>
+                    <div id="myCarousel" class="Card-Carousel">
+                        <div id="carouselExampleControls-4" class="carousel carousel-card mx-auto slide"
+                            data-bs-interval="false">
+                            <div class="carousel-inner row mx-auto">
+                                <div class="carousel-item active">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蟻人/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蟻人/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">蟻人</h6>
+                                                                <p class="card-text ellipsis ">
+                                                                    當一眾漫威(Marvel)超級英雄在保衛地球，一個神秘球體卻觸發更浩大的宇宙危機！自稱星爵的亡命之徒因偷去神秘球體，引來宇宙最強不擇手段的司令上將窮追不捨。為求甩身，星爵無奈倉促成軍，與神秘女殺手葛摩菈、復仇戰士德雷克斯、
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蟻人與黃蜂女/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蟻人與黃蜂女/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <h6 class="card-title">蟻人與黃蜂女</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業的《蟻人與黃蜂女》描述一群來自遙遠星際的古老英雄。他們從人類誕生之初就曾保護地球。當久被遺忘的怪物「變異族」神秘回歸時，永恆族被迫重聚以再次保衛人類。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/雷神索爾2/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/雷神索爾2/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">雷神索爾2</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    艾迪布洛克（湯姆哈迪飾）窮困潦倒，失去了一切。他成為了一個外星共生體的宿主，從此化身猛毒，擁有非凡的超能力。具備超能力的猛毒能否擊敗強大的邪惡勢力，與更強大、更有手段的共生體“暴動”一較高下？
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/雷神索爾3/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/雷神索爾3/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">雷神索爾3</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業出品的《雷神索爾3》由安東尼麥基飾演外號「獵鷹」的山姆威爾森、由賽巴斯汀史坦飾演「酷寒戰士」巴奇巴恩斯。他們在《復仇者聯盟4：終局之戰》結束時成為拍檔，如今攜手展開一場全球大冒險，考驗兩人的能力和耐性。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/美國隊長/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/美國隊長/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h6 class="card-title">美國隊長</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    在被認為不適合服兵役後，史蒂夫羅傑斯自願參加一項絕密研究項目，將他變成了美國隊長，一個致力於捍衛美國理想、領導自由之戰的超級英雄，成為了對抗邪惡的終極武器。當一股可怕的力量威脅到全球所有人時，全球最強戰士發動了對抗邪惡的九頭蛇組織的戰爭，該組織由惡貫滿盈的紅骷髏領導。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/美國隊長2-酷寒戰士/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/美國隊長2-酷寒戰士/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h6 class="card-title">美國隊長2-酷寒戰士</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    經歷了復仇者聯盟的紐約大戰後，美國隊長史蒂夫羅傑斯在華盛頓特區過著平靜的生活，試圖適應現代社會。然而當神盾局同事遭遇襲擊後，史蒂夫被迫捲入了一場威脅全球安全的陰謀之中。他與黑寡婦聯手出擊，一邊抵抗企圖將自己滅口的職業殺手，一邊揭露這一巨大的陰謀。當邪惡計劃曝光之後，美國隊長與黑寡婦得到了一位名叫獵鷹的新盟友的幫助。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/美國隊長3/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/美國隊長3/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">美國隊長3</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    在《美國隊長3：英雄內戰》中，美國隊長史蒂夫羅傑斯帶領著全新組建的復仇者聯盟，繼續維護世界和平。然而，一次執行任務時聯盟成員不慎造成大量平民傷亡，從而激發政治壓力，政府決定使用一套監管系統來管理和領導復仇者聯盟。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蜘蛛人-返校日/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蜘蛛人-返校日/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">蜘蛛人-返校日</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    年輕的彼得帕克／蜘蛛人嘗試駕馭新身份——一位利用蜘蛛網擺盪的超級英雄。在新導師東尼史塔克的監督下，彼得回到家裡，和梅嬸一起生活。彼得試圖回歸正常的生活。一個新反派禿鷹出現，威脅到彼得身邊的親人。-一個有自我意識、學習能力的人工智能機器人，並將指揮機器人軍團的大權交給奧創。然而不斷進化的奧創得出了｢人類是地球上最大威脅｣的結論，進而開始實施清除人類的毀滅計畫，擁有強大能力的新角色緋紅女巫以及快銀也將加入戰局。復仇者聯盟必須再度集合，解決這個由他們親手造成的全球危機！
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls-4" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls-4" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- 第五行 -->
+            <div class="card-container">
+                <div class="card-wrap ">
+                    <h4 class="px-0 px-md-5 text-center text-md-start">漫威精選</h4>
+                    <div id="myCarousel" class="Card-Carousel">
+                        <div id="carouselExampleControls-5" class="carousel carousel-card mx-auto slide"
+                            data-bs-interval="false">
+                            <div class="carousel-inner row mx-auto">
+                                <div class="carousel-item">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蟻人/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蟻人/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h6 class="card-title">蟻人</h6>
+                                                                <p class="card-text ellipsis ">
+                                                                    當一眾漫威(Marvel)超級英雄在保衛地球，一個神秘球體卻觸發更浩大的宇宙危機！自稱星爵的亡命之徒因偷去神秘球體，引來宇宙最強不擇手段的司令上將窮追不捨。為求甩身，星爵無奈倉促成軍，與神秘女殺手葛摩菈、復仇戰士德雷克斯、
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/蟻人與黃蜂女/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/蟻人與黃蜂女/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h6 class="card-title">蟻人與黃蜂女</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業的《蟻人與黃蜂女》描述一群來自遙遠星際的古老英雄。他們從人類誕生之初就曾保護地球。當久被遺忘的怪物「變異族」神秘回歸時，永恆族被迫重聚以再次保衛人類。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/雷神索爾2/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/雷神索爾2/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">雷神索爾2</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    艾迪布洛克（湯姆哈迪飾）窮困潦倒，失去了一切。他成為了一個外星共生體的宿主，從此化身猛毒，擁有非凡的超能力。具備超能力的猛毒能否擊敗強大的邪惡勢力，與更強大、更有手段的共生體“暴動”一較高下？
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/雷神索爾3/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/雷神索爾3/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">雷神索爾3</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    漫威影業出品的《雷神索爾3》由安東尼麥基飾演外號「獵鷹」的山姆威爾森、由賽巴斯汀史坦飾演「酷寒戰士」巴奇巴恩斯。他們在《復仇者聯盟4：終局之戰》結束時成為拍檔，如今攜手展開一場全球大冒險，考驗兩人的能力和耐性。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item active">
+                                    <div class="row jcc">
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/黑豹/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/黑豹/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h6 class="card-title">黑豹</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    在被認為不適合服兵役後，史蒂夫羅傑斯自願參加一項絕密研究項目，將他變成了美國隊長，一個致力於捍衛美國理想、領導自由之戰的超級英雄，成為了對抗邪惡的終極武器。當一股可怕的力量威脅到全球所有人時，全球最強戰士發動了對抗邪惡的九頭蛇組織的戰爭，該組織由惡貫滿盈的紅骷髏領導。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/黑寡婦/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/黑寡婦/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h6 class="card-title">黑寡婦</h6>
+                                                                <p class="card-text ellipsis">
+                                                                    經歷了復仇者聯盟的紐約大戰後，黑寡婦在華盛頓特區過著平靜的生活，試圖適應現代社會。然而當神盾局同事遭遇襲擊後，史蒂夫被迫捲入了一場威脅全球安全的陰謀之中。他與黑寡婦聯手出擊，一邊抵抗企圖將自己滅口的職業殺手，一邊揭露這一巨大的陰謀。當邪惡計劃曝光之後，美國隊長與黑寡婦得到了一位名叫獵鷹的新盟友的幫助。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/制裁者/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/制裁者/card.jpeg" class="card-img-top"
+                                                                alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">制裁者</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    在《制裁者》中，制裁者帶領著全新組建的復仇者聯盟，繼續維護世界和平。然而，一次執行任務時聯盟成員不慎造成大量平民傷亡，從而激發政治壓力，政府決定使用一套監管系統來管理和領導復仇者聯盟。
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-8 mb-5 mb-md-3">
+                                            <div class="hover-box">
+                                                <div class="img-box"><img src="../images/card/神盾局特工/card.jpeg">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="info-content">
+                                                        <div class="card">
+                                                            <img src="../images/card/神盾局特工/card.jpeg"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                    height="32" fill="currentColor"
+                                                                    class="bi bi-play-circle d-block mx-auto"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                                    <path
+                                                                        d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+                                                                </svg>
+                                                                <a class="stretched-link" href="#"></a>
+                                                                <h5 class="card-title">蜘蛛人-返校日</h5>
+                                                                <p class="card-text ellipsis">
+                                                                    年輕的彼得帕克／蜘蛛人嘗試駕馭新身份——一位利用蜘蛛網擺盪的超級英雄。在新導師東尼史塔克的監督下，彼得回到家裡，和梅嬸一起生活。彼得試圖回歸正常的生活。一個新反派禿鷹出現，威脅到彼得身邊的親人。-一個有自我意識、學習能力的人工智能機器人，並將指揮機器人軍團的大權交給奧創。然而不斷進化的奧創得出了｢人類是地球上最大威脅｣的結論，進而開始實施清除人類的毀滅計畫，擁有強大能力的新角色緋紅女巫以及快銀也將加入戰局。復仇者聯盟必須再度集合，解決這個由他們親手造成的全球危機！
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls-5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls-5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- NEWS -->
+        <div class="news-wrap overflow">
+            <h3 class="text-c mb-3">準備上映</h3>
+            <div class="news row overflow jcc">
+                <div class="col-md-3 col-sm-6 col-8 mb-3 news-card overflow">
+                    <div class="card  bg-black overflow">
+                        <div class="card-news-header overflow p-0">
+                            <img src="../images/news/月光騎士/card-new.png" class="card-img-top cover-fit" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <a class="stretched-link" href="#"></a>
+                            <h5 class="card-title text-c">月光騎士</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-8 mb-3 news-card">
+                    <div class="card bg-black">
+                        <div class="card-news-header overflow p-0">
+                            <img src="../images/news/鐵拳俠/card-new.jpg" class="card-img-top" alt="...">
+
+                        </div>
+                        <div class="card-body">
+                            <a class="stretched-link" href="#"></a>
+                            <h5 class="card-title text-c">鐵拳俠</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-8 mb-3 news-card">
+                    <div class="card bg-black">
+                        <div class="card-news-header overflow p-0">
+                            <img src="../images/news/女浩克/card-new.jpg" class="card-img-top w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <a class="stretched-link" href="#"></a>
+                            <h5 class="card-title text-c">女浩克</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-8 mb-3 news-card">
+                    <div class="card bg-black">
+                        <div class="card-news-header overflow p-0">
+                            <img src="../images/news//卡特探員/card拷貝.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <a class="stretched-link" href="#"></a>
+                            <h5 class="card-title text-c">卡特探員</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- footer -->
+        <div class="footer bg-black row mx-0 mt-3 ali-c jcsb">
+            <div class="footer-logo col-4">
+                <img src="../images/logo/logo.png" alt="">
+            </div>
+            <ul class="footer-info col-md-6  col-8  ms-auto d-flex jcsb">
+                <li>
+                    <h3>最新消息</h3>
+                    <ul class="ps-0 ali-c">
+                        <li class=" d-flex jcsb hvr-underline-from-center">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="  d-flex jcsb hvr-underline-from-center">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="d-flex jcsb hvr-underline-from-center">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-line" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0ZM5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.154.154 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157Zm.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156h-.562Zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832a.17.17 0 0 0-.013-.015v-.001a.139.139 0 0 0-.01-.01l-.003-.003a.092.092 0 0 0-.011-.009h-.001L7.88 4.79l-.003-.002a.029.029 0 0 0-.005-.003l-.008-.005h-.002l-.003-.002-.01-.004-.004-.002a.093.093 0 0 0-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.154.154 0 0 0 .039.038l.001.001.01.006.004.002a.066.066 0 0 0 .008.004l.007.003.005.002a.168.168 0 0 0 .01.003h.003a.155.155 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156h-.561Zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.155.155 0 0 0-.108.044h-.001l-.001.002-.002.003a.155.155 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.155.155 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z" />
+                                </svg>
+                                Line
+                            </a>
+                        </li>
+                        <li class="d-flex jcsb hvr-underline-from-center">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                </svg>
+                                Youtube
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>相關資訊</h3>
+                    <ul>
+                        <li class="hvr-underline-from-center">
+                            <a href="#">
+                                關於我們
+                            </a>
+                        </li>
+                        <li class="hvr-underline-from-center"><a href="#">
+                                使用條款
+                            </a></li>
+                        <li class="hvr-underline-from-center"><a href="#">
+                                常見問題
+                            </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <h3>服務條款</h3>
+                        <li class="hvr-underline-from-center"><a href="#">
+                                隱私政策
+                            </a></li>
+                        <li class="hvr-underline-from-center"><a href="#">
+                                服務協定
+                            </a></li>
+                        <li class="hvr-underline-from-center"><a href="#">
+                                分級制度
+                            </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--Scroll Top-->
+        <div class="goTop">
+            <a href="#" class="goTopBtn jq-goTop">
+                <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+            </a>
+        </div>
+    </div>
+</body>
+
+
+
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+<script src="../style/all.js"></script>
+
+</html>

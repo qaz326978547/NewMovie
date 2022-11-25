@@ -1,0 +1,44 @@
+#carouselExampleControls {
+
+    position: relative;
+}
+
+// .carousel {
+//     max-height: 600px;
+// }
+
+.myCarousel {
+    position: relative;
+    overflow: hidden;
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 45%;
+        bottom: auto;
+    }
+
+    .carousel-control-prev {
+        left: -5%;
+    }
+
+    .carousel-control-next {
+        right: -5%;
+    }
+}
+
+
+.card-swiper {
+    position: relative;
+
+    .card-swiper-img {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+
+        img {
+            max-width: 50%;
+        }
+    }
+}
