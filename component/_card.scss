@@ -1,0 +1,144 @@
+.card-container {
+    margin: 0 auto;
+
+
+
+    .card-wrap {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    h4 {
+        padding-left: 42px;
+        margin-bottom: 16px;
+    }
+}
+
+
+
+.Card-Carousel {
+    width: 100%;
+    padding: 0 32px;
+}
+
+.hover-box {
+    max-width: 100%;
+    margin: auto;
+    background: #4d674a;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.hover-box .img-box {
+    position: relative;
+
+
+}
+
+.hover-box .img-box img {
+    margin: auto;
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+// .hover-box:hover .img-box img {
+//     transform: scale(1.3);
+// }
+
+.hover-box .info-box {
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    bottom: -120px;
+    right: -60px;
+    color: #fff;
+    background: black;
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay: 0.3s;
+    border-radius: 10px;
+    z-index: 5;
+
+}
+
+.hover-box .info-box .info-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .card {
+        background-color: black
+    }
+}
+
+.hover-box:hover .info-box {
+    transform: scaleY(1);
+    z-index: 2;
+}
+
+.bi-play-circle {
+    margin-bottom: 8px;
+}
+
+//輪播
+.carousel-inner {
+    overflow: visible;
+
+}
+
+.Card-carousel {
+    margin: 0 auto;
+}
+
+.carousel-card {
+    position: relative;
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: -30%;
+
+    }
+
+    .carousel-control-prev {
+        left: -4%;
+        width: 32px;
+    }
+
+    .carousel-control-next {
+        right: -4%;
+        width: 32px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .carousel-card {
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            top: -20%;
+        }
+    }
+}
+
+//card
+.card-text {
+    line-height: 1.5;
+}
+
+.info-content {
+    .card-text {
+        font-size: 12px !important;
+    }
+}
+
+.ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    /*行數*/
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}

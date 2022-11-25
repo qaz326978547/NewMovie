@@ -1,0 +1,170 @@
+.doctor-body-bg {
+    background-image: url(../images/card/奇異博士2/card-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.doctor-top-wrap {
+    height: 800px;
+}
+
+.doctor-bg-op {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100%;
+}
+
+.doctor-container {
+    overflow: hidden;
+}
+
+
+// .doctor-top-op {}
+
+.doctor-top-title {
+    img {
+        max-width: 50%;
+    }
+}
+
+//doctor-top-phone
+@media (max-width: 575.98px) {
+    .doctor-body-bg {
+        background-image: url(../images/card/奇異博士2/card-bg-sm.jpeg);
+    }
+
+    .doctor-top-wrap {
+        height: 600px;
+
+        .doctor-top-title {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+
+}
+
+//tab
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    background-color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.tab-height {
+    height: 400px;
+}
+
+@media (max-width: 575.98px) {
+    .tab-height {
+        height: 1000px;
+    }
+}
+
+//teams
+.doctor-teams {
+    li {
+        text-align: center;
+        font-size: 14px;
+        flex-wrap: wrap;
+        width: 150px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+
+//comment
+.doctor-comment-bg {
+    background-color: black;
+    border-radius: 10px;
+
+    .doctor-comment-header {
+        padding: 8px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .doctor-comment-body {
+        padding: 36px;
+    }
+
+    .doctor-comment-write textarea {
+        border-radius: 5px;
+        resize: none;
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+    .doctor-comment-header {
+        h5 {
+            font-size: 16px;
+        }
+
+        .comment-time {
+            font-size: 14px;
+        }
+    }
+}
+
+
+//star
+.box {
+    display: inline-flex;
+    flex-direction: row-reverse;
+
+    label {
+        user-select: none;
+
+        &:after {
+            content: '☆';
+            color: #fff;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            &:after {
+                content: '★';
+                color: orange;
+            }
+
+            ~label {
+                &:after {
+                    content: '★';
+                    color: orange;
+                }
+            }
+        }
+    }
+
+    input {
+        display: none;
+
+        &:checked {
+            +label {
+                &after {
+                    content: '★';
+                    color: orange;
+                }
+            }
+
+            ~label {
+                &:after {
+                    content: '★';
+                    color: orange;
+                }
+            }
+        }
+    }
+}
