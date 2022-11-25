@@ -1,0 +1,114 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+li {
+    color: white !important;
+}
+
+a {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+
+    object-fit: cover;
+    display: block;
+}
+
+.hvr-underline-from-center {
+    display: block;
+
+}
+
+.hvr-underline-from-center:before {
+    background: white;
+}
+
+//navbar
+.navbar-nav li {
+    padding: 8px;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+@media (max-width:991px) {
+    .navbar-nav li {
+        padding: 16px 8px;
+    }
+
+    .container-fluid {
+        padding: 8px 16px;
+    }
+
+    .form-control {
+        width: 50%;
+    }
+}
+
+//footer
+.footer {
+    .footer-info li {
+        padding: 8px 0;
+        text-align: center;
+
+        ul {
+            padding-left: 0px;
+        }
+
+        svg {
+            margin-right: auto;
+        }
+    }
+
+    .footer-logo img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:767.98px) {
+    .footer-info li {
+        h3 {
+            font-size: 16px;
+        }
+
+        font-size: 14px;
+    }
+
+
+}
+
+/*Scroll Top*/
+.goTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    //圖示水平移動位置
+    transform: translateX(0);
+    transition: transform 0.2s;
+
+    //圖示隱藏
+    &.hide {
+        transform: translateX(120%);
+    }
+
+    .goTopBtn {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
