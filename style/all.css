@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -222,7 +223,7 @@ ul {
 
 img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 
@@ -249,23 +250,29 @@ img {
   .navbar-nav li {
     padding: 16px 8px;
   }
+
   .container-fluid {
     padding: 8px 16px;
   }
+
   .form-control {
     width: 50%;
   }
 }
+
 .footer .footer-info li {
   padding: 8px 0;
   text-align: center;
 }
+
 .footer .footer-info li ul {
   padding-left: 0px;
 }
+
 .footer .footer-info li svg {
   margin-right: auto;
 }
+
 .footer .footer-logo img {
   max-width: 100%;
 }
@@ -274,10 +281,12 @@ img {
   .footer-info li {
     font-size: 14px;
   }
+
   .footer-info li h3 {
     font-size: 16px;
   }
 }
+
 /*Scroll Top*/
 .goTop {
   position: fixed;
@@ -286,9 +295,11 @@ img {
   transform: translateX(0);
   transition: transform 0.2s;
 }
+
 .goTop.hide {
   transform: translateX(120%);
 }
+
 .goTop .goTopBtn {
   background-color: transparent;
   border: none;
@@ -304,15 +315,18 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 .myCarousel .carousel-control-prev,
 .myCarousel .carousel-control-next {
   position: absolute;
   top: 45%;
   bottom: auto;
 }
+
 .myCarousel .carousel-control-prev {
   left: -5%;
 }
+
 .myCarousel .carousel-control-next {
   right: -5%;
 }
@@ -320,11 +334,13 @@ img {
 .card-swiper {
   position: relative;
 }
+
 .card-swiper .card-swiper-img {
   position: absolute;
   top: 10%;
   left: 5%;
 }
+
 .card-swiper .card-swiper-img img {
   max-width: 50%;
 }
@@ -332,10 +348,12 @@ img {
 .card-container {
   margin: 0 auto;
 }
+
 .card-container .card-wrap {
   width: 100%;
   padding: 0 16px;
 }
+
 .card-container h4 {
   padding-left: 42px;
   margin-bottom: 16px;
@@ -384,6 +402,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .hover-box .info-box .info-content .card {
   background-color: black;
 }
@@ -408,26 +427,31 @@ img {
 .carousel-card {
   position: relative;
 }
+
 .carousel-card .carousel-control-prev,
 .carousel-card .carousel-control-next {
   position: absolute;
   top: -30%;
 }
+
 .carousel-card .carousel-control-prev {
   left: -4%;
   width: 32px;
 }
+
 .carousel-card .carousel-control-next {
   right: -4%;
   width: 32px;
 }
 
 @media (max-width: 767.98px) {
+
   .carousel-card .carousel-control-prev,
-.carousel-card .carousel-control-next {
+  .carousel-card .carousel-control-next {
     top: -20%;
   }
 }
+
 .card-text {
   line-height: 1.5;
 }
@@ -493,7 +517,7 @@ img {
   height: 100%;
   position: relative;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: all 0.3s;
   border: 1px solid white;
 }
@@ -562,10 +586,12 @@ img {
   .flipcard-wrap .card-body {
     max-height: 500px;
   }
+
   .card-back .card-text {
     font-size: 16px;
   }
 }
+
 .Carousel-main {
   max-height: 600px;
 }
@@ -575,10 +601,12 @@ img {
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
 }
+
 .top-card .top-card-title {
   position: absolute;
   top: 15%;
 }
+
 .top-card .top-card-title img {
   width: 50%;
 }
@@ -586,6 +614,7 @@ img {
 .TOP10 {
   position: relative;
 }
+
 .TOP10 .carousel-control-prev,
 .TOP10 .carousel-control-next {
   position: absolute;
@@ -601,11 +630,13 @@ img {
     max-height: 250px;
   }
 }
+
 @media (max-width: 767.98px) {
   .news .card img {
     max-height: 450px;
   }
 }
+
 .index-bg {
   background-image: url(../images/bg/index-bg.jpeg);
   background-position: center;
@@ -641,7 +672,7 @@ img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .doctor-body-bg {
@@ -672,15 +703,18 @@ img {
   .doctor-body-bg {
     background-image: url(../images/card/奇異博士2/card-bg-sm.jpeg);
   }
+
   .doctor-top-wrap {
     height: 600px;
   }
+
   .doctor-top-wrap .doctor-top-title img {
     max-width: 100%;
   }
 }
+
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   color: black;
   background-color: white;
 }
@@ -698,12 +732,14 @@ img {
     height: 1000px;
   }
 }
+
 .doctor-teams li {
   text-align: center;
   font-size: 14px;
   flex-wrap: wrap;
   width: 150px;
 }
+
 .doctor-teams img {
   width: 100px;
   height: 100px;
@@ -714,13 +750,16 @@ img {
   background-color: black;
   border-radius: 10px;
 }
+
 .doctor-comment-bg .doctor-comment-header {
   padding: 8px;
   border-bottom: 1px solid #fff;
 }
+
 .doctor-comment-bg .doctor-comment-body {
   padding: 36px;
 }
+
 .doctor-comment-bg .doctor-comment-write textarea {
   border-radius: 5px;
   resize: none;
@@ -730,43 +769,53 @@ img {
   .doctor-comment-header h5 {
     font-size: 16px;
   }
+
   .doctor-comment-header .comment-time {
     font-size: 14px;
   }
 }
+
 .box {
   display: inline-flex;
   flex-direction: row-reverse;
 }
+
 .box label {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+
 .box label:after {
   content: "☆";
   color: #fff;
 }
+
 .box label:hover {
   cursor: pointer;
 }
+
 .box label:hover:after {
   content: "★";
   color: orange;
 }
-.box label:hover ~ label:after {
+
+.box label:hover~label:after {
   content: "★";
   color: orange;
 }
+
 .box input {
   display: none;
 }
-.box input:checked + labelafter {
+
+.box input:checked+labelafter {
   content: "★";
   color: orange;
 }
-.box input:checked ~ label:after {
+
+.box input:checked~label:after {
   content: "★";
   color: orange;
 }
@@ -821,8 +870,8 @@ img {
   transition: 0.5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
   color: #03e9f4;
@@ -862,14 +911,16 @@ img {
   height: 2px;
   background: linear-gradient(90deg, transparent, white);
   -webkit-animation: btn-anim1 1s linear infinite;
-          animation: btn-anim1 1s linear infinite;
+  animation: btn-anim1 1s linear infinite;
 }
 
 @-webkit-keyframes btn-anim1 {
   0% {
     left: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
@@ -878,10 +929,13 @@ img {
   0% {
     left: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
+
 .login-box a span:nth-child(2) {
   top: -100%;
   right: 0;
@@ -889,16 +943,18 @@ img {
   height: 100%;
   background: linear-gradient(180deg, transparent, white);
   -webkit-animation: btn-anim2 1s linear infinite;
-          animation: btn-anim2 1s linear infinite;
+  animation: btn-anim2 1s linear infinite;
   -webkit-animation-delay: 0.25s;
-          animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 @-webkit-keyframes btn-anim2 {
   0% {
     top: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
@@ -907,10 +963,13 @@ img {
   0% {
     top: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
+
 .login-box a span:nth-child(3) {
   bottom: 0;
   right: -100%;
@@ -918,16 +977,18 @@ img {
   height: 2px;
   background: linear-gradient(270deg, transparent, white);
   -webkit-animation: btn-anim3 1s linear infinite;
-          animation: btn-anim3 1s linear infinite;
+  animation: btn-anim3 1s linear infinite;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 @-webkit-keyframes btn-anim3 {
   0% {
     right: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
@@ -936,10 +997,13 @@ img {
   0% {
     right: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
+
 .login-box a span:nth-child(4) {
   bottom: -100%;
   left: 0;
@@ -947,16 +1011,18 @@ img {
   height: 100%;
   background: linear-gradient(360deg, transparent, white);
   -webkit-animation: btn-anim4 1s linear infinite;
-          animation: btn-anim4 1s linear infinite;
+  animation: btn-anim4 1s linear infinite;
   -webkit-animation-delay: 0.75s;
-          animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 @-webkit-keyframes btn-anim4 {
   0% {
     bottom: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
 }
@@ -965,7 +1031,16 @@ img {
   0% {
     bottom: -100%;
   }
-  50%, 100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
-}/*# sourceMappingURL=all.css.map */
+
+}
+
+.bg-black {
+  background: black;
+}
+
+/*# sourceMappingURL=all.css.map */
